@@ -14,6 +14,6 @@ public class MemberForm {
 
     private String street;
 
-    private String zipcode;
+    private String zipcode; //우편번호
 
 }

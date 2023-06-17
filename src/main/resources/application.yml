@@ -12,6 +12,7 @@ spring:
       hibernate:
 #        show_sql: true <System.out 으로 출력되기때문에 운영 환경에서는 로그들은 로거를 통해서 찍어야함>
         format_sql: true
+        default_batch_fetch_size: 100
 
   thymeleaf:
     prefix: classpath:/templates/
